@@ -13,6 +13,7 @@ export default () => {
     }).then(response => console.log);
     setTitle("");
     alert("post added correctly");
+    window.location.reload(false);
   }
   return (
     <div>
